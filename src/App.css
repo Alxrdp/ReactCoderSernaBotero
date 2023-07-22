@@ -1,24 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+
 #barraFondo{
-  align-items: end !important;
-  background-color: rgba(0, 0, 0, 0.322) !important;
+  align-items: end !important;  
 }
 #navbarNavDropdown{
   flex-direction: row-reverse;
+  
 }
 .tituloNavPatriora {
   width: 50%;
   margin-left: 10px;
+  
 }
 .dropdown-menu{
-  background-color: rgba(0, 0, 0, 0.322) !important;
+  background-color: rgba(0, 0, 0, 0.171) !important;
 }
 
 .btnsNav{
@@ -35,17 +29,18 @@ body {
   text-align: end;
   margin-right: 10px;
 }
+.flex-container{
+  display: flex;
+  margin: 0 auto !important;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-
 .App {
   text-align: center;
   
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
